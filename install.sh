@@ -1,8 +1,8 @@
 #!/bin/sh
-# Usage on the box:  wget -qO- https://raw.githubusercontent.com/OWNER/REPO/main/install.sh | sh -s -- OWNER/REPO
+# Usage on the box:  wget -qO- https://raw.githubusercontent.com/CathalOConnorRH/zgemma-abm/main/install.sh | sh -s -- CathalOConnorRH/zgemma-abm
 set -e
 REPO="$1"
-[ -n "$REPO" ] || { echo "Usage: sh install.sh OWNER/REPO"; exit 1; }
+[ -n "$REPO" ] || { echo "Usage: sh install.sh CathalOConnorRH/zgemma-abm"; exit 1; }
 mkdir -p /usr/script
 wget -q -O /usr/script/abm-sync.sh "https://raw.githubusercontent.com/$REPO/main/abm-sync.sh"
 chmod +x /usr/script/abm-sync.sh

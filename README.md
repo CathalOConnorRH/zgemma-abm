@@ -9,7 +9,7 @@ Shared AutoBouquetsMaker CustomMix for the Zgemma boxes (Saorview 1–22, then S
    `/usr/script/abm-sync.sh` on the box, then run ABM.
 
 ## Install on a box (once)
-    wget -qO- https://raw.githubusercontent.com/OWNER/REPO/main/install.sh | sh -s -- OWNER/REPO
+    wget -qO- https://raw.githubusercontent.com/CathalOConnorRH/zgemma-abm/main/install.sh | sh -s -- CathalOConnorRH/zgemma-abm
 
 ## Roll back
     cp /etc/enigma2/AutoBouquetsMaker/custom/sat_282_sky_uk_CustomMix.xml.prev /etc/enigma2/AutoBouquetsMaker/custom/sat_282_sky_uk_CustomMix.xml
