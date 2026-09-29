@@ -1,26 +1,206 @@
 <custommix>
 	<inserts>
-		<!-- Saorview (terrestrial_ie_saorview_PSB1) at native Saorview numbers, ahead of Sky at 101+ -->
 		<insert provider="terrestrial_ie_saorview_PSB1" source="1" target="1"></insert> <!-- RTÉ One -->
 		<insert provider="terrestrial_ie_saorview_PSB1" source="2" target="2"></insert> <!-- RTÉ2 -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="3" target="3"></insert> <!-- Virgin Media One -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="4" target="4"></insert> <!-- TG4 -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="5" target="5"></insert> <!-- Virgin Media Two -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="6" target="6"></insert> <!-- Virgin Media Three -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="7" target="7"></insert> <!-- Virgin Media Four -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="8" target="8"></insert> <!-- Challenge -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="11" target="11"></insert> <!-- RTÉ One +1 -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="12" target="12"></insert> <!-- RTÉ2 +1 -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="14" target="14"></insert> <!-- TG4 +1 -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="17" target="17"></insert> <!-- RTÉ Junior -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="18" target="18"></insert> <!-- Cúla4 -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="21" target="21"></insert> <!-- RTÉ News -->
-		<insert provider="terrestrial_ie_saorview_PSB1" source="22" target="22"></insert> <!-- Tithe an Oireachtais -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="3" target="103"></insert> <!-- Virgin Media 1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="4" target="205"></insert> <!-- TG4 -->
+		<insert provider="sat_282_sky_uk" source="235" target="831"></insert> <!-- E4+1 -->
+		<insert provider="sat_282_sky_uk" source="138" target="832"></insert> <!-- E4 Extra -->
+		<insert provider="sat_282_sky_uk" source="831" target="833"></insert> <!-- More4 -->
+		<insert provider="sat_282_sky_uk" source="236" target="834"></insert> <!-- More4+1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="5" target="835"></insert> <!-- Virgin Media 2 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="6" target="836"></insert> <!-- Virgin Media 3 -->
+		<insert provider="sat_282_sky_uk" source="314" target="856"></insert> <!-- Film4+1 -->
+		<insert provider="sat_282_sky_uk" source="137" target="857"></insert> <!-- 4seven -->
+		<insert provider="sat_282_sky_uk" source="811" target="882"></insert> <!-- U&amp;Dave -->
+		<insert provider="sat_282_sky_uk" source="211" target="883"></insert> <!-- U&amp;DaveJaVu -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="7" target="884"></insert> <!-- Virgin Media 4 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="11" target="885"></insert> <!-- RTÉ One +1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="12" target="886"></insert> <!-- RTÉ2 +1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="14" target="887"></insert> <!-- TG4 +1 -->
+		<insert provider="sat_282_sky_uk" source="115" target="888"></insert> <!-- BBC Three HD -->
+		<insert provider="sat_282_sky_uk" source="116" target="889"></insert> <!-- BBC Four HD -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="8" target="890"></insert> <!-- Challenge -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="17" target="891"></insert> <!-- RTÉ Junior -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="18" target="892"></insert> <!-- Cúla4 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="21" target="893"></insert> <!-- RTÉ News -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="22" target="894"></insert> <!-- Tithe an Oireachtais -->
+		<insert provider="sat_282_sky_uk" source="103" target="895"></insert> <!-- ITV1 London HD -->
+		<insert provider="sat_282_sky_uk" source="105" target="896"></insert> <!-- 5 HD -->
+		<insert provider="sat_282_sky_uk" source="118" target="897"></insert> <!-- ITV2 HD -->
+		<insert provider="sat_282_sky_uk" source="119" target="898"></insert> <!-- ITV3 HD -->
+		<insert provider="sat_282_sky_uk" source="120" target="899"></insert> <!-- ITV4 HD -->
+		<insert provider="sat_282_sky_uk" source="128" target="900"></insert> <!-- 5STAR -->
+		<insert provider="sat_282_sky_uk" source="130" target="901"></insert> <!-- Challenge -->
+		<insert provider="sat_282_sky_uk" source="131" target="902"></insert> <!-- ITV Quiz HD -->
+		<insert provider="sat_282_sky_uk" source="132" target="903"></insert> <!-- U&amp;W -->
+		<insert provider="sat_282_sky_uk" source="133" target="904"></insert> <!-- TLC HD -->
+		<insert provider="sat_282_sky_uk" source="134" target="905"></insert> <!-- S4C HD -->
+		<insert provider="sat_282_sky_uk" source="140" target="906"></insert> <!-- QUEST HD -->
+		<insert provider="sat_282_sky_uk" source="141" target="907"></insert> <!-- 5 USA -->
+		<insert provider="sat_282_sky_uk" source="142" target="908"></insert> <!-- Really -->
+		<insert provider="sat_282_sky_uk" source="143" target="909"></insert> <!-- U&amp;Drama -->
+		<insert provider="sat_282_sky_uk" source="144" target="910"></insert> <!-- Food Network -->
+		<insert provider="sat_282_sky_uk" source="146" target="911"></insert> <!-- TRUE CRIME -->
+		<insert provider="sat_282_sky_uk" source="147" target="912"></insert> <!-- TRUE CRIME XTR -->
+		<insert provider="sat_282_sky_uk" source="148" target="913"></insert> <!-- LEGEND -->
+		<insert provider="sat_282_sky_uk" source="149" target="914"></insert> <!-- Quest Red -->
+		<insert provider="sat_282_sky_uk" source="150" target="915"></insert> <!-- 5ACTION -->
+		<insert provider="sat_282_sky_uk" source="151" target="916"></insert> <!-- Sky Mix HD -->
+		<insert provider="sat_282_sky_uk" source="153" target="917"></insert> <!-- 5SELECT -->
+		<insert provider="sat_282_sky_uk" source="155" target="918"></insert> <!-- U&amp;Yesterday -->
+		<insert provider="sat_282_sky_uk" source="156" target="919"></insert> <!-- BLAZE -->
+		<insert provider="sat_282_sky_uk" source="157" target="920"></insert> <!-- Great! TV -->
+		<insert provider="sat_282_sky_uk" source="159" target="921"></insert> <!-- DMAX -->
+		<insert provider="sat_282_sky_uk" source="166" target="922"></insert> <!-- U&amp;Eden -->
+		<insert provider="sat_282_sky_uk" source="169" target="923"></insert> <!-- BBC ALBA HD -->
+		<insert provider="sat_282_sky_uk" source="170" target="924"></insert> <!-- Together -->
+		<insert provider="sat_282_sky_uk" source="173" target="925"></insert> <!-- PBS America -->
+		<insert provider="sat_282_sky_uk" source="178" target="926"></insert> <!-- Travelxp -->
+		<insert provider="sat_282_sky_uk" source="180" target="927"></insert> <!-- BBCScotlandHD -->
+		<insert provider="sat_282_sky_uk" source="182" target="928"></insert> <!-- Rewind TV -->
+		<insert provider="sat_282_sky_uk" source="203" target="929"></insert> <!-- ITV1+1 London -->
+		<insert provider="sat_282_sky_uk" source="205" target="930"></insert> <!-- 5+1 -->
+		<insert provider="sat_282_sky_uk" source="218" target="931"></insert> <!-- ITV2+1 -->
+		<insert provider="sat_282_sky_uk" source="219" target="932"></insert> <!-- ITV3+1 -->
+		<insert provider="sat_282_sky_uk" source="220" target="933"></insert> <!-- ITV4+1 -->
+		<insert provider="sat_282_sky_uk" source="228" target="934"></insert> <!-- 5STAR+1 -->
+		<insert provider="sat_282_sky_uk" source="232" target="935"></insert> <!-- U&amp;W+1 -->
+		<insert provider="sat_282_sky_uk" source="233" target="936"></insert> <!-- TLC+1 -->
+		<insert provider="sat_282_sky_uk" source="240" target="937"></insert> <!-- QUEST+1 -->
+		<insert provider="sat_282_sky_uk" source="241" target="938"></insert> <!-- 5USA+1 -->
+		<insert provider="sat_282_sky_uk" source="242" target="939"></insert> <!-- Really +1 -->
+		<insert provider="sat_282_sky_uk" source="243" target="940"></insert> <!-- U&amp;Drama+1 -->
+		<insert provider="sat_282_sky_uk" source="244" target="941"></insert> <!-- Food Netwrk+1 -->
+		<insert provider="sat_282_sky_uk" source="246" target="942"></insert> <!-- TRUE CRIME+1 -->
+		<insert provider="sat_282_sky_uk" source="249" target="943"></insert> <!-- Quest Red+1 -->
+		<insert provider="sat_282_sky_uk" source="255" target="944"></insert> <!-- U&amp;Yesterday+1 -->
+		<insert provider="sat_282_sky_uk" source="257" target="945"></insert> <!-- Great! TV+1 -->
+		<insert provider="sat_282_sky_uk" source="259" target="946"></insert> <!-- DMAX+1 -->
+		<insert provider="sat_282_sky_uk" source="266" target="947"></insert> <!-- U&amp;Eden+1 -->
+		<insert provider="sat_282_sky_uk" source="316" target="948"></insert> <!-- LEGEND XTRA -->
+		<insert provider="sat_282_sky_uk" source="317" target="949"></insert> <!-- LEGEND XTRA+1 -->
+		<insert provider="sat_282_sky_uk" source="318" target="950"></insert> <!-- Great! Action -->
+		<insert provider="sat_282_sky_uk" source="319" target="951"></insert> <!-- Great! Action+1 -->
+		<insert provider="sat_282_sky_uk" source="320" target="952"></insert> <!-- Great! Mystery -->
+		<insert provider="sat_282_sky_uk" source="321" target="953"></insert> <!-- G! Mystery+1 -->
+		<insert provider="sat_282_sky_uk" source="322" target="954"></insert> <!-- Great!Christmas -->
+		<insert provider="sat_282_sky_uk" source="323" target="955"></insert> <!-- Great! Xmas+1 -->
+		<insert provider="sat_282_sky_uk" source="324" target="956"></insert> <!-- TalkingPictures -->
+		<insert provider="sat_282_sky_uk" source="354" target="957"></insert> <!-- Clubland TV -->
+		<insert provider="sat_282_sky_uk" source="355" target="958"></insert> <!-- NOW 70s -->
+		<insert provider="sat_282_sky_uk" source="356" target="959"></insert> <!-- NOW 80s -->
+		<insert provider="sat_282_sky_uk" source="357" target="960"></insert> <!-- NOW 90s &amp; 00s -->
+		<insert provider="sat_282_sky_uk" source="358" target="961"></insert> <!-- NOW ROCK -->
+		<insert provider="sat_282_sky_uk" source="607" target="962"></insert> <!-- CBBC HD -->
+		<insert provider="sat_282_sky_uk" source="608" target="963"></insert> <!-- CBeebies HD -->
+		<insert provider="sat_282_sky_uk" source="820" target="964"></insert> <!-- Sky Arts -->
+		<insert provider="sat_282_sky_uk" source="828" target="965"></insert> <!-- TLC -->
+		<insert provider="sat_282_sky_uk" source="886" target="966"></insert> <!-- TRT World -->
 	</inserts>
 	<deletes>
-		<!-- Sky shopping -->
+		<delete target="105"></delete> <!-- 5 HD -->
+		<delete target="115"></delete> <!-- BBC Three HD -->
+		<delete target="116"></delete> <!-- BBC Four HD -->
+		<delete target="118"></delete> <!-- ITV2 HD -->
+		<delete target="119"></delete> <!-- ITV3 HD -->
+		<delete target="120"></delete> <!-- ITV4 HD -->
+		<delete target="128"></delete> <!-- 5STAR -->
+		<delete target="130"></delete> <!-- Challenge -->
+		<delete target="131"></delete> <!-- ITV Quiz HD -->
+		<delete target="132"></delete> <!-- U&amp;W -->
+		<delete target="133"></delete> <!-- TLC HD -->
+		<delete target="134"></delete> <!-- S4C HD -->
+		<delete target="137"></delete> <!-- 4seven -->
+		<delete target="138"></delete> <!-- E4 Extra -->
+		<delete target="140"></delete> <!-- QUEST HD -->
+		<delete target="141"></delete> <!-- 5 USA -->
+		<delete target="142"></delete> <!-- Really -->
+		<delete target="143"></delete> <!-- U&amp;Drama -->
+		<delete target="144"></delete> <!-- Food Network -->
+		<delete target="146"></delete> <!-- TRUE CRIME -->
+		<delete target="147"></delete> <!-- TRUE CRIME XTR -->
+		<delete target="148"></delete> <!-- LEGEND -->
+		<delete target="149"></delete> <!-- Quest Red -->
+		<delete target="150"></delete> <!-- 5ACTION -->
+		<delete target="151"></delete> <!-- Sky Mix HD -->
+		<delete target="153"></delete> <!-- 5SELECT -->
+		<delete target="155"></delete> <!-- U&amp;Yesterday -->
+		<delete target="156"></delete> <!-- BLAZE -->
+		<delete target="157"></delete> <!-- Great! TV -->
+		<delete target="159"></delete> <!-- DMAX -->
+		<delete target="166"></delete> <!-- U&amp;Eden -->
+		<delete target="169"></delete> <!-- BBC ALBA HD -->
+		<delete target="170"></delete> <!-- Together -->
+		<delete target="173"></delete> <!-- PBS America -->
+		<delete target="178"></delete> <!-- Travelxp -->
+		<delete target="180"></delete> <!-- BBCScotlandHD -->
+		<delete target="182"></delete> <!-- Rewind TV -->
+		<delete target="203"></delete> <!-- ITV1+1 London -->
+		<delete target="211"></delete> <!-- U&amp;DaveJaVu -->
+		<delete target="218"></delete> <!-- ITV2+1 -->
+		<delete target="219"></delete> <!-- ITV3+1 -->
+		<delete target="220"></delete> <!-- ITV4+1 -->
+		<delete target="228"></delete> <!-- 5STAR+1 -->
+		<delete target="232"></delete> <!-- U&amp;W+1 -->
+		<delete target="233"></delete> <!-- TLC+1 -->
+		<delete target="235"></delete> <!-- E4+1 -->
+		<delete target="236"></delete> <!-- More4+1 -->
+		<delete target="240"></delete> <!-- QUEST+1 -->
+		<delete target="241"></delete> <!-- 5USA+1 -->
+		<delete target="242"></delete> <!-- Really +1 -->
+		<delete target="243"></delete> <!-- U&amp;Drama+1 -->
+		<delete target="244"></delete> <!-- Food Netwrk+1 -->
+		<delete target="246"></delete> <!-- TRUE CRIME+1 -->
+		<delete target="249"></delete> <!-- Quest Red+1 -->
+		<delete target="255"></delete> <!-- U&amp;Yesterday+1 -->
+		<delete target="257"></delete> <!-- Great! TV+1 -->
+		<delete target="259"></delete> <!-- DMAX+1 -->
+		<delete target="266"></delete> <!-- U&amp;Eden+1 -->
+		<delete target="314"></delete> <!-- Film4+1 -->
+		<delete target="316"></delete> <!-- LEGEND XTRA -->
+		<delete target="317"></delete> <!-- LEGEND XTRA+1 -->
+		<delete target="318"></delete> <!-- Great! Action -->
+		<delete target="319"></delete> <!-- Great! Action+1 -->
+		<delete target="320"></delete> <!-- Great! Mystery -->
+		<delete target="321"></delete> <!-- G! Mystery+1 -->
+		<delete target="322"></delete> <!-- Great!Christmas -->
+		<delete target="323"></delete> <!-- Great! Xmas+1 -->
+		<delete target="324"></delete> <!-- TalkingPictures -->
+		<delete target="354"></delete> <!-- Clubland TV -->
+		<delete target="355"></delete> <!-- NOW 70s -->
+		<delete target="356"></delete> <!-- NOW 80s -->
+		<delete target="357"></delete> <!-- NOW 90s &amp; 00s -->
+		<delete target="358"></delete> <!-- NOW ROCK -->
+		<delete target="502"></delete> <!-- Bloomberg HD -->
+		<delete target="503"></delete> <!-- BBC NEWS HD -->
+		<delete target="504"></delete> <!-- BBC Parl HD -->
+		<delete target="505"></delete> <!-- CNBC HD -->
+		<delete target="507"></delete> <!-- NHK World HD -->
+		<delete target="508"></delete> <!-- Euronews -->
+		<delete target="509"></delete> <!-- NDTV World -->
+		<delete target="510"></delete> <!-- FRANCE 24 HD -->
+		<delete target="511"></delete> <!-- Al Jazeera HD -->
+		<delete target="512"></delete> <!-- GB News HD -->
+		<delete target="513"></delete> <!-- TRT World HD -->
+		<delete target="515"></delete> <!-- Channels 24 -->
+		<delete target="516"></delete> <!-- Arise News -->
+		<delete target="518"></delete> <!-- Arirang TV HD -->
+		<delete target="520"></delete> <!-- TVC News -->
+		<delete target="521"></delete> <!-- NTD -->
+		<delete target="522"></delete> <!-- DM News English -->
+		<delete target="580"></delete> <!-- GOD Channel -->
+		<delete target="581"></delete> <!-- revelation -->
+		<delete target="582"></delete> <!-- TBN UK -->
+		<delete target="583"></delete> <!-- DAYSTAR HD -->
+		<delete target="585"></delete> <!-- LoveWorld HD -->
+		<delete target="586"></delete> <!-- EWTN Catholic -->
+		<delete target="588"></delete> <!-- Faith World TV -->
+		<delete target="593"></delete> <!-- SonLife -->
+		<delete target="607"></delete> <!-- CBBC HD -->
+		<delete target="608"></delete> <!-- CBeebies HD -->
 		<delete target="660"></delete> <!-- QVC HD -->
-		<delete target="661"></delete> <!-- Must Have Ideas HD -->
+		<delete target="661"></delete> <!-- MstHveIdeasHD -->
 		<delete target="662"></delete> <!-- TJC HD -->
 		<delete target="663"></delete> <!-- QVC Beauty -->
 		<delete target="664"></delete> <!-- QVC Style HD -->
