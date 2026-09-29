@@ -1,0 +1,134 @@
+<custommix>
+	<inserts>
+		<!-- Saorview (terrestrial_ie_saorview_PSB1) at native Saorview numbers, ahead of Sky at 101+ -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="1" target="1"></insert> <!-- RTÉ One -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="2" target="2"></insert> <!-- RTÉ2 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="3" target="3"></insert> <!-- Virgin Media One -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="4" target="4"></insert> <!-- TG4 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="5" target="5"></insert> <!-- Virgin Media Two -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="6" target="6"></insert> <!-- Virgin Media Three -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="7" target="7"></insert> <!-- Virgin Media Four -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="8" target="8"></insert> <!-- Challenge -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="11" target="11"></insert> <!-- RTÉ One +1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="12" target="12"></insert> <!-- RTÉ2 +1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="14" target="14"></insert> <!-- TG4 +1 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="17" target="17"></insert> <!-- RTÉ Junior -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="18" target="18"></insert> <!-- Cúla4 -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="21" target="21"></insert> <!-- RTÉ News -->
+		<insert provider="terrestrial_ie_saorview_PSB1" source="22" target="22"></insert> <!-- Tithe an Oireachtais -->
+	</inserts>
+	<deletes>
+		<!-- Sky shopping -->
+		<delete target="660"></delete> <!-- QVC HD -->
+		<delete target="661"></delete> <!-- Must Have Ideas HD -->
+		<delete target="662"></delete> <!-- TJC HD -->
+		<delete target="663"></delete> <!-- QVC Beauty -->
+		<delete target="664"></delete> <!-- QVC Style HD -->
+		<delete target="665"></delete> <!-- Gemporia HD -->
+		<delete target="666"></delete> <!-- High Street TV 1 -->
+		<delete target="667"></delete> <!-- High Street TV 2 -->
+		<delete target="668"></delete> <!-- Ideal World HD -->
+		<delete target="669"></delete> <!-- Best Direct -->
+		<delete target="670"></delete> <!-- HobbyMaker HD -->
+		<delete target="671"></delete> <!-- QVC Christmas -->
+		<delete target="672"></delete> <!-- High Street TV 3 -->
+		<delete target="673"></delete> <!-- TV Warehouse -->
+		<delete target="674"></delete> <!-- JewelleryMaker -->
+		<delete target="675"></delete> <!-- Cruise1st.tv -->
+		<!-- Sky adult -->
+		<delete target="902"></delete> <!-- Xpanded TV -->
+		<delete target="904"></delete> <!-- Babenation -->
+		<!-- Sky international -->
+		<delete target="709"></delete> <!-- APNA MA TV -->
+		<delete target="710"></delete> <!-- AAJ TAK -->
+		<delete target="718"></delete> <!-- Aastha -->
+		<delete target="719"></delete> <!-- Sanskar -->
+		<delete target="731"></delete> <!-- MTA1 World HD -->
+		<delete target="732"></delete> <!-- HUM News -->
+		<delete target="734"></delete> <!-- GEO News -->
+		<delete target="735"></delete> <!-- New Vision TV -->
+		<delete target="736"></delete> <!-- Islam Channel -->
+		<delete target="737"></delete> <!-- GEO TV -->
+		<delete target="738"></delete> <!-- Noor TV -->
+		<delete target="739"></delete> <!-- IQRA TV -->
+		<delete target="741"></delete> <!-- Islam TV -->
+		<delete target="742"></delete> <!-- Ahlebait TV -->
+		<delete target="743"></delete> <!-- Takbeer TV -->
+		<delete target="744"></delete> <!-- HUM EUROPE -->
+		<delete target="745"></delete> <!-- Islam Ch Urdu -->
+		<delete target="746"></delete> <!-- Madani Chnl -->
+		<delete target="747"></delete> <!-- Eman Channel -->
+		<delete target="748"></delete> <!-- ARY Digital -->
+		<delete target="751"></delete> <!-- QTV Religious -->
+		<delete target="760"></delete> <!-- PTC PUNJABI -->
+		<delete target="761"></delete> <!-- Panjab TV -->
+		<delete target="762"></delete> <!-- Sikh Channel -->
+		<delete target="763"></delete> <!-- Sangat -->
+		<delete target="764"></delete> <!-- Akaal Channel -->
+		<delete target="765"></delete> <!-- Kanshi TV -->
+		<delete target="766"></delete> <!-- Pitaara -->
+		<delete target="767"></delete> <!-- PoliticsPunjab -->
+		<delete target="768"></delete> <!-- PBC -->
+		<delete target="770"></delete> <!-- GTC Punjabi -->
+		<delete target="777"></delete> <!-- CHSTV -->
+		<delete target="778"></delete> <!-- IQRA Bangla -->
+		<delete target="779"></delete> <!-- ATN -->
+		<delete target="780"></delete> <!-- NTV -->
+		<delete target="781"></delete> <!-- TV One -->
+		<delete target="782"></delete> <!-- iON TV -->
+		<delete target="783"></delete> <!-- Deen TV -->
+		<delete target="788"></delete> <!-- SkyNewsArabia -->
+		<delete target="789"></delete> <!-- PCNE Chinese HD -->
+		<!-- Sky news -->
+		<delete target="502"></delete> <!-- Bloomberg HD -->
+		<delete target="503"></delete> <!-- BBC News HD -->
+		<delete target="504"></delete> <!-- BBC Parliament HD -->
+		<delete target="505"></delete> <!-- CNBC HD -->
+		<delete target="507"></delete> <!-- NHK World HD -->
+		<delete target="508"></delete> <!-- Euronews -->
+		<delete target="509"></delete> <!-- NDTV World -->
+		<delete target="510"></delete> <!-- France 24 HD -->
+		<delete target="511"></delete> <!-- Al Jazeera HD -->
+		<delete target="512"></delete> <!-- GB News HD -->
+		<delete target="513"></delete> <!-- TRT World HD -->
+		<delete target="515"></delete> <!-- Channels 24 -->
+		<delete target="516"></delete> <!-- Arise News -->
+		<delete target="518"></delete> <!-- Arirang TV HD -->
+		<delete target="520"></delete> <!-- TVC News -->
+		<delete target="521"></delete> <!-- NTD -->
+		<delete target="522"></delete> <!-- DM News English -->
+		<!-- Sky religion -->
+		<delete target="580"></delete> <!-- GOD Channel -->
+		<delete target="581"></delete> <!-- revelation -->
+		<delete target="582"></delete> <!-- TBN UK -->
+		<delete target="583"></delete> <!-- DAYSTAR HD -->
+		<delete target="585"></delete> <!-- LoveWorld HD -->
+		<delete target="586"></delete> <!-- EWTN Catholic -->
+		<delete target="588"></delete> <!-- Faith World TV -->
+		<delete target="593"></delete> <!-- SonLife -->
+		<!-- Sky regional BBC -->
+		<delete target="952"></delete> <!-- BBC One NE HD -->
+		<delete target="953"></delete> <!-- BBC One NW HD -->
+		<delete target="954"></delete> <!-- BBC One Yorks HD -->
+		<delete target="955"></delete> <!-- BBC One Yorks &amp; Lincs HD -->
+		<delete target="956"></delete> <!-- BBC One West Midlands HD -->
+		<delete target="957"></delete> <!-- BBC One East Midlands HD -->
+		<delete target="958"></delete> <!-- BBC One East HD -->
+		<delete target="959"></delete> <!-- BBC One South East HD -->
+		<delete target="960"></delete> <!-- BBC One West HD -->
+		<delete target="961"></delete> <!-- BBC One South HD -->
+		<delete target="962"></delete> <!-- BBC One South West HD -->
+		<delete target="963"></delete> <!-- BBC One Channel Islands HD -->
+		<delete target="964"></delete> <!-- BBC One Scotland HD -->
+		<delete target="965"></delete> <!-- BBC One Wales HD -->
+		<delete target="966"></delete> <!-- BBC One NI HD -->
+		<delete target="968"></delete> <!-- BBC Two Wales HD -->
+		<delete target="969"></delete> <!-- BBC Two NI HD -->
+		<!-- Sky red button / info -->
+		<delete target="970"></delete> <!-- BBC Red Button 1 HD -->
+		<delete target="994"></delete> <!-- IEPG data 1 -->
+	</deletes>
+	<sections>
+		<section number="1">Saorview</section> <!-- lets ABM keep channels numbered below 101 -->
+	</sections>
+</custommix>
