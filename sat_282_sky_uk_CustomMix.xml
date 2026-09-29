@@ -29,16 +29,12 @@
 		<delete target="667"></delete> <!-- High Street TV 2 -->
 		<delete target="668"></delete> <!-- Ideal World HD -->
 		<delete target="669"></delete> <!-- Best Direct -->
-		<delete target="670"></delete> <!-- HobbyMaker HD -->
+		<delete target="670"></delete> <!-- HobbyMakerHD -->
 		<delete target="671"></delete> <!-- QVC Christmas -->
 		<delete target="672"></delete> <!-- High Street TV 3 -->
 		<delete target="673"></delete> <!-- TV Warehouse -->
 		<delete target="674"></delete> <!-- JewelleryMaker -->
 		<delete target="675"></delete> <!-- Cruise1st.tv -->
-		<!-- Sky adult -->
-		<delete target="902"></delete> <!-- Xpanded TV -->
-		<delete target="904"></delete> <!-- Babenation -->
-		<!-- Sky international -->
 		<delete target="709"></delete> <!-- APNA MA TV -->
 		<delete target="710"></delete> <!-- AAJ TAK -->
 		<delete target="718"></delete> <!-- Aastha -->
@@ -79,53 +75,12 @@
 		<delete target="783"></delete> <!-- Deen TV -->
 		<delete target="788"></delete> <!-- SkyNewsArabia -->
 		<delete target="789"></delete> <!-- PCNE Chinese HD -->
-		<!-- Sky news -->
-		<delete target="502"></delete> <!-- Bloomberg HD -->
-		<delete target="503"></delete> <!-- BBC News HD -->
-		<delete target="504"></delete> <!-- BBC Parliament HD -->
-		<delete target="505"></delete> <!-- CNBC HD -->
-		<delete target="507"></delete> <!-- NHK World HD -->
-		<delete target="508"></delete> <!-- Euronews -->
-		<delete target="509"></delete> <!-- NDTV World -->
-		<delete target="510"></delete> <!-- France 24 HD -->
-		<delete target="511"></delete> <!-- Al Jazeera HD -->
-		<delete target="512"></delete> <!-- GB News HD -->
-		<delete target="513"></delete> <!-- TRT World HD -->
-		<delete target="515"></delete> <!-- Channels 24 -->
-		<delete target="516"></delete> <!-- Arise News -->
-		<delete target="518"></delete> <!-- Arirang TV HD -->
-		<delete target="520"></delete> <!-- TVC News -->
-		<delete target="521"></delete> <!-- NTD -->
-		<delete target="522"></delete> <!-- DM News English -->
-		<!-- Sky religion -->
-		<delete target="580"></delete> <!-- GOD Channel -->
-		<delete target="581"></delete> <!-- revelation -->
-		<delete target="582"></delete> <!-- TBN UK -->
-		<delete target="583"></delete> <!-- DAYSTAR HD -->
-		<delete target="585"></delete> <!-- LoveWorld HD -->
-		<delete target="586"></delete> <!-- EWTN Catholic -->
-		<delete target="588"></delete> <!-- Faith World TV -->
-		<delete target="593"></delete> <!-- SonLife -->
-		<!-- Sky regional BBC -->
-		<delete target="952"></delete> <!-- BBC One NE HD -->
-		<delete target="953"></delete> <!-- BBC One NW HD -->
-		<delete target="954"></delete> <!-- BBC One Yorks HD -->
-		<delete target="955"></delete> <!-- BBC One Yorks &amp; Lincs HD -->
-		<delete target="956"></delete> <!-- BBC One West Midlands HD -->
-		<delete target="957"></delete> <!-- BBC One East Midlands HD -->
-		<delete target="958"></delete> <!-- BBC One East HD -->
-		<delete target="959"></delete> <!-- BBC One South East HD -->
-		<delete target="960"></delete> <!-- BBC One West HD -->
-		<delete target="961"></delete> <!-- BBC One South HD -->
-		<delete target="962"></delete> <!-- BBC One South West HD -->
-		<delete target="963"></delete> <!-- BBC One Channel Islands HD -->
-		<delete target="964"></delete> <!-- BBC One Scotland HD -->
-		<delete target="965"></delete> <!-- BBC One Wales HD -->
-		<delete target="966"></delete> <!-- BBC One NI HD -->
-		<delete target="968"></delete> <!-- BBC Two Wales HD -->
+		<delete target="811"></delete> <!-- U&amp;Dave -->
+		<delete target="820"></delete> <!-- Sky Arts -->
+		<delete target="828"></delete> <!-- TLC -->
+		<delete target="968"></delete> <!-- BBC Two Wal HD -->
 		<delete target="969"></delete> <!-- BBC Two NI HD -->
-		<!-- Sky red button / info -->
-		<delete target="970"></delete> <!-- BBC Red Button 1 HD -->
+		<delete target="970"></delete> <!-- BBC RB 1 HD -->
 		<delete target="994"></delete> <!-- IEPG data 1 -->
 	</deletes>
 	<sections>
